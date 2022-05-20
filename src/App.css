@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    background-color: #f1f7fe;
+    padding-top: 4rem;
+    color: #3f3f46;
+    height: 100vh;
+}
+
+.App .app-container {
+    background-color: #ffffff;
+    width: 60%;
+    height: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+    box-shadow: 0px 19px 147px rgba(0, 0, 0, 0.07),
+        0px 12.3148px 86.0903px rgba(0, 0, 0, 0.0531481),
+        0px 7.31852px 46.8222px rgba(0, 0, 0, 0.0425185),
+        0px 3.8px 23.8875px rgba(0, 0, 0, 0.035),
+        0px 1.54815px 11.9778px rgba(0, 0, 0, 0.0274815),
+        0px 0.351852px 5.78472px rgba(0, 0, 0, 0.0168519);
+    border-radius: 12px;
+    overflow-y: scroll;
+}
+
+.App .table .table-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1.5fr 0.6fr;
+    text-align: left;
+    padding: 1rem;
+    margin: 0.4rem 0;
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+.App .table .table-bar p {
+    margin: 0.4rem;
+}
+
+.App .table .table-contents {
+    margin-top: 2rem;
+}
+
+.App .table .table-contents .table-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1.5fr 0.6fr;
+    text-align: left;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 0.4rem 0;
+    border-radius: 4px;
+    background-color: #f8f9fd;
+}
+.App .table .table-contents .approved {
+    background-color: #bbf7d0;
+}
+.App .table .table-contents .reject {
+    background-color: #ffc0c0;
+}
+.App .table .table-contents .guest {
+    background-color: #f8f5ce;
+}
+.App .table .table-contents .table-item p {
+    margin: 0.4rem;
+}
+.App .table .table-contents .table-item select {
+    color: #3f3f46;
+}
+
+.App .table .table-contents .table-item select {
+    height: 32px;
+    background: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07),
+        0px 0px 2.92824px rgba(0, 0, 0, 0.0531481),
+        0px 0px 1.59259px rgba(0, 0, 0, 0.0425185),
+        0px 0px 0.8125px rgba(0, 0, 0, 0.035),
+        0px 0px 0.407407px rgba(0, 0, 0, 0.0274815),
+        0px 0px 0.196759px rgba(0, 0, 0, 0.0168519);
+    border-radius: 4px;
+    border: none;
+}
+
+.App .table .table-item .description {
+    font-size: 12px;
+    width: 80%;
+}
