@@ -1,16 +1,11 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 import Table from './components/table';
-import AddItems from './components/addItems';
 import data from './data.js';
 
 function App() {
     const [tableData, setTableData] = useState([]);
-    const [newItem, setNewItem] = useState({
-        name: '',
-        phone: '',
-        email: '',
-    });
+
     useEffect(() => {
         setTableData(data);
     }, []);
