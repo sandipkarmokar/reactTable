@@ -26,7 +26,7 @@ const Table = ({ data }) => {
                     return (
                         <div className={`table-item ${status}`} key={id}>
                             {' '}
-                            {/* On every re-render it add class based on the status. */}
+                            {/* On every re-render it add class based on the status.= */}
                             <p className="name">{name}</p>
                             <p className="email">{email}</p>
                             <p className="phone">{phone}</p>

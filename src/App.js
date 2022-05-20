@@ -22,7 +22,6 @@ function App() {
             <div className="app-container">
                 <Table data={tableData}></Table>
             </div>
-            {/* <AddItems newItem={newItem} setNewItem={setNewItem}></AddItems> */}
         </div>
     );
 }
